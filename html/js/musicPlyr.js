@@ -238,7 +238,7 @@ player.on('timeupdate', event => {
   }
   var plyr_time = event.detail.plyr.currentTime;  // 当前时间（单位：秒）
   var plyr_duration = event.detail.plyr.duration;  // 音频总时长（单位：秒）
-  if (plyr_time > 10 && plyr_time == plyr_duration) {
+  if (plyr_time > 3 && plyr_time == plyr_duration) {
     if (modeFlag == 1) {
       event.detail.plyr.currentTime = 0;
       event.detail.plyr.play();
