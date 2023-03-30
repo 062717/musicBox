@@ -163,6 +163,7 @@ function dialogDisplay(content) {
   var closeBtn = document.getElementById('closeBtn');
   closeBtn.style.height = "30px";
   closeBtn.style.width = "50%";
+  closeBtn.style.outline = "0";
   closeBtn.style.borderRadius = "20px";
   //closeBtn.style.marginLeft = "25%";
   closeBtn.style.backgroundColor = "rgba(255,180,180,0.5)";
